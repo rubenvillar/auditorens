@@ -8,8 +8,12 @@ def leermunicipiosine():
             print(row)
 
 
+def transformarnombremunicipio(nombre):
+    return nombre
+
+
 def main():
-    leermunicipiosine()
+    print(transformarnombremunicipio("Socuéllamos"))
 
 if __name__ == "__main__":
     main()
